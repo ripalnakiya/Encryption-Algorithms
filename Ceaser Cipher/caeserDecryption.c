@@ -4,7 +4,7 @@ int main(){
     int key;
     char text[100];
 
-    printf("Enter cipher text: ");
+    printf("Enter the Cipher: ");
     scanf("%s",text);
 
     printf("Enter the key: ");
@@ -19,7 +19,7 @@ int main(){
 
     printf("\n");
     
-    printf("The Cipher is: %s", text);
+    printf("The Text is: %s", text);
 
     return 0;    
 
